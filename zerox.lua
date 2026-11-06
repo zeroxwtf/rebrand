@@ -6941,7 +6941,7 @@ local function FeedbackSendFeedback(ScreenshotPath, Kills, Rating, SegmentLevel)
           .. "\240\159\134\148 PLAYER ID \226\158\156 %s\n"
           .. "\240\159\148\171 KILL \226\158\156 %d\n"
           .. "\240\159\143\134 PLAYER RANK \226\158\156 %s\n"
-          .. "\240\159\146\142 MAIN CHANNEL @ZEROX \240\159\146\128",
+          .. "\240\159\146\142 MAIN CHANNEL @ZEROOxWTF \240\159\146\128",
           PlayerName, MaskedUid, Kills, RankName)
         local Encoded = FeedbackBase64Encode(ImageData)
         local Payload = string.gsub(Encoded, "+", "%%2B")
